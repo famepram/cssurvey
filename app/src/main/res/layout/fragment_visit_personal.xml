@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="12">
+
+    <RelativeLayout
+        style="@style/ProgressHeaderFragmentTitle"
+        android:id="@+id/visit_header_form_personal">
+        <TextView
+            style="@style/ProgressHeaderFragmentTitleText"
+            android:text="@string/survet_act_title_visit_personal"
+            android:id="@+id/txt_survey_act_title" />
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="35dp"
+        android:paddingBottom="25dp">
+        <RelativeLayout
+            android:id="@+id/visit_wrapper_form_personal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:layout_weight="2">
+
+            <android.support.design.widget.TextInputLayout
+                style="@style/ProgressInputForm"
+                android:id="@+id/input_layout_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/etxt_survey_act_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:hint="@string/survey_act_hint_name" />
+            </android.support.design.widget.TextInputLayout>
+
+
+
+            <android.support.design.widget.TextInputLayout
+                style="@style/ProgressInputForm"
+                android:id="@+id/input_layout_email"
+                android:layout_below="@+id/input_layout_name">
+                <EditText
+                    android:id="@+id/etxt_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:hint="@string/survey_act_hint_email" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                style="@style/ProgressInputForm"
+                android:id="@+id/input_layout_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/input_layout_email">
+                <EditText
+                    android:id="@+id/etxt_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:hint="@string/survey_act_hint_phone" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                style="@style/ProgressInputForm"
+                android:id="@+id/input_layout_address"
+                android:layout_below="@+id/input_layout_phone">
+                <EditText
+                    android:id="@+id/etxt_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:hint="@string/survey_act_hint_address" />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <!--<EditText-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:inputType="date"-->
+                <!--android:hint="@string/survey_act_hint_date_visit"-->
+                <!--android:ems="10"-->
+                <!--android:id="@+id/etxt_survey_act_date_visit"-->
+                <!--android:layout_marginTop="@dimen/survey_act_mtop_widget"-->
+                <!--android:layout_below="@+id/etxt_survey_act_email"-->
+                <!--android:layout_centerHorizontal="true" />-->
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/general_save_next"
+                android:drawableRight="@mipmap/ic_chevron_right_white_24dp"
+                android:background="@color/colorBlue"
+                android:textColor="@color/colorWhite"
+                android:id="@+id/button_visit_personal"
+                android:layout_below="@+id/input_layout_address"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:padding="@dimen/survey_act_mtop_widget"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:visibility="invisible" />
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

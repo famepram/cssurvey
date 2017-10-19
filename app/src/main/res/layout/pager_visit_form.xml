@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--<ImageView-->
+            <!--android:id="@+id/img_header"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:adjustViewBounds="true"-->
+            <!--android:scaleType="fitCenter"-->
+            <!--android:src="@mipmap/deal_box" />-->
+        <!--<coid.progressgroup.cssurvey.CustomViewPager-->
+            <!--android:id="@+id/vpager_visit"-->
+            <!--android:layout_alignParentTop="true"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="-84dp" />-->
+
+        <coid.progressgroup.cssurvey.CustomViewPager
+            android:id="@+id/vpager_visit"
+            android:layout_alignParentTop="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_alignParentBottom="true"
+            android:weightSum="2"
+            android:layout_height="wrap_content">
+
+            <Button
+                style="@style/ProgressFooterButtonNavBlue"
+                android:drawableLeft="@mipmap/ic_navigate_before_white_24dp"
+                android:text="PREV"
+                android:id="@+id/button_prev" />
+            <Button
+                style="@style/ProgressFooterButtonNavBlue"
+                android:drawableRight="@mipmap/ic_navigate_next_white_24dp"
+                android:text="NEXT"
+                android:id="@+id/button_next" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

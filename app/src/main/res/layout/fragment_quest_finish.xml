@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlue">
+
+    <LinearLayout
+        android:layout_marginTop="108dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:id="@+id/imageView"
+            android:src="@mipmap/ic_thumb_up_white_24dp"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/thank_big"
+            android:textColor="@color/colorWhite"
+            android:id="@+id/txt_thank_big"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorWhite"
+            android:text="@string/thank_small"
+            android:id="@+id/txt_thank_small"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:background="@color/colorWhite"
+            android:drawableLeft="@mipmap/ic_home_black_24dp"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:layout_height="wrap_content"
+            android:text="@string/thank_back_to_menu"
+            android:id="@+id/btn_back_home"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+</LinearLayout>

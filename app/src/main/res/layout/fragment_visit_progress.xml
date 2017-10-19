@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        style="@style/ProgressHeaderFragmentTitle"
+        android:id="@+id/visit_header_form_personal">
+        <TextView
+            style="@style/ProgressHeaderFragmentTitleText"
+            android:text="@string/survet_act_title_visit_progress"
+            android:id="@+id/txt_survey_act_title" />
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="25dp">
+        <RelativeLayout
+            android:id="@+id/visit_wrapper_form_personal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:layout_weight="2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/survey_act_hint_knowing_progress_from"
+                android:id="@+id/txtview_progress_knowfrom"
+                android:layout_alignParentTop="true" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtview_progress_knowfrom"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/radio_group_progress_knowfrom"
+                android:layout_marginTop="@dimen/survey_act_mtop_widget"
+                android:layout_marginBottom="@dimen/survey_act_mtop_widget">
+
+                <RadioButton
+                    android:id="@+id/radio_from_friend"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/survey_act_label_knowing_progress_from_friend"
+                    android:checked="true" />
+
+                <RadioButton
+                    android:id="@+id/radio_from_sibling"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/survey_act_label_knowing_progress_from_sibling" />
+                <RadioButton
+                    android:id="@+id/radio_from_neighbour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/survey_act_label_knowing_progress_from_neighbour" />
+                <RadioButton
+                    android:id="@+id/radio_from_banner_ad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/survey_act_label_knowing_progress_from_banner" />
+                <RadioButton
+                    android:id="@+id/radio_from_media"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/survey_act_label_knowing_progress_from_media_ad" />
+                <RadioButton
+                    android:id="@+id/radio_from_passing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/survey_act_label_knowing_progress_from_passing" />
+                <RadioButton
+                    android:id="@+id/radio_from_neighbourhood"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/survey_act_label_knowing_progress_from_neighborhood" />
+                <RadioButton
+                    android:id="@+id/radio_from_other"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/survey_act_label_knowing_progress_from_others" />
+            </RadioGroup>
+
+
+            <android.support.design.widget.TextInputLayout
+                style="@style/ProgressInputForm"
+                android:id="@+id/input_layout_doctor"
+                android:layout_below="@+id/radio_group_progress_knowfrom">
+
+                <EditText
+                    android:id="@+id/etxt_doctor_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:hint="Doctor(s) Name" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                style="@style/ProgressInputForm"
+                android:id="@+id/input_layout_clinic"
+                android:layout_below="@+id/input_layout_doctor">
+
+                <EditText
+                    android:id="@+id/etxt_clinic_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:hint="Clinic Name" />
+            </android.support.design.widget.TextInputLayout>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/general_save_next"
+                android:drawableRight="@mipmap/ic_chevron_right_white_24dp"
+                android:background="@color/colorBlue"
+                android:textColor="@color/colorWhite"
+                android:id="@+id/button_visit_progress"
+                android:layout_below="@+id/input_layout_clinic"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:padding="@dimen/survey_act_mtop_widget"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                android:visibility="invisible" />
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

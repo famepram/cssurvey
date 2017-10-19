@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        style="@style/ProgressHeaderFragmentTitle"
+        android:id="@+id/visit_header_form_personal">
+        <TextView
+            style="@style/ProgressHeaderFragmentTitleText"
+            android:id="@+id/txt_survey_act_title" />
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:paddingBottom="0dp">
+        <LinearLayout
+            android:id="@+id/wrap_list_quest"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:paddingBottom="54dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

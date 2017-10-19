@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">CS Survey</string>
+    <string name="main_menu_start_survey">Mulai Survey</string>
+    <string name="main_menu_start_sync">Sinkronisasi Data</string>
+    <string name="main_menu_start_report">Laporan</string>
+    <string name="survet_act_title_data_visitor">Data Kunjungan</string>
+    <string name="survet_act_title_visit_personal">Data Pasien</string>
+    <string name="survet_act_title_visit_progress">Tentang Royal Progress</string>
+    <string name="survey_act_hint_name">Nama / Name</string>
+    <string name="survey_act_hint_address">Alamat / Address</string>
+    <string name="survey_act_hint_phone">Telp No. / Phone No. </string>
+    <string name="survey_act_hint_email">Email</string>
+    <string name="survey_act_hint_date_visit">Tanggal Hari Ini / Date Of Visit</string>
+    <string name="survey_act_hint_knowing_progress_from">How Did You Know About RS Royal Progress</string>
+    <string name="survey_act_label_knowing_progress_from_friend">Teman / Friends</string>
+    <string name="survey_act_label_knowing_progress_from_sibling">Saudara / Siblings</string>
+    <string name="survey_act_label_knowing_progress_from_neighbour">Tetangga / Neighbour</string>
+    <string name="survey_act_label_knowing_progress_from_banner">Spanduk / Banner Ad</string>
+    <string name="survey_act_label_knowing_progress_from_media_ad">Brosur atau iklan di media / media Ad</string>
+    <string name="survey_act_label_knowing_progress_from_passing">Saat lewat RS / When Passing Hospital</string>
+    <string name="survey_act_label_knowing_progress_from_neighborhood">Lingkungan / Neighborhood</string>
+    <string name="survey_act_label_knowing_progress_from_others">Lainnya / Other</string>
+    <string name="survey_act_hint_doctor_name">Dokter yang dikunjungi / Doctor(s) you visit</string>
+    <string name="survey_act_hint_clinic">Klinik / Clinic</string>
+
+    <string name="general_save_next">Simpan dan Selanjutnya</string>
+    <string name="general_option_excellent">Sangat Bagus / Excellent</string>
+    <string name="general_option_good">Bagus / Good</string>
+    <string name="general_option_poor">Kurang / Poor</string>
+    <string name="general_option_verypoor">Sangat Kurang / Very Poor</string>
+
+    <string name="quest_register_head_title">Pendaftaran / Registration</string>
+    <string name="quest_register_item_1_id">Waktu Tunggu Saat mendaftar</string>
+    <string name="quest_register_item_1_en">Waiting Time In registration</string>
+    <string name="quest_register_item_2_id">Sikap dan Keramahan</string>
+    <string name="quest_register_item_2_en">Friendliness Of Service</string>
+    <string name="quest_register_item_3_id">Kejelasan Memberikan Keterangan</string>
+    <string name="quest_register_item_3_en">Clarity Of Communication</string>
+    <string name="quest_register_item_4_id">Staf membantu, ramah dan sopan</string>
+    <string name="quest_register_item_4_en">Staff was courteous and helpful</string>
+
+    <string name="quest_doctor_head_title">Dokter / Doctor</string>
+    <string name="quest_doctor_item_1_id">Ketepatan waktu dengan jadwal</string>
+    <string name="quest_doctor_item_1_en">Schedule on time</string>
+    <string name="quest_doctor_item_2_id">Ramah dan empati</string>
+    <string name="quest_doctor_item_2_en">Friendliness and empathy</string>
+    <string name="quest_doctor_item_3_id">Cepat Tanggap</string>
+    <string name="quest_doctor_item_3_en">Quick To Attend Your Needs</string>
+    <string name="quest_doctor_item_4_id">Keterampilan Profesi</string>
+    <string name="quest_doctor_item_4_en">Skill</string>
+    <string name="quest_doctor_item_5_id">Kepedulian</string>
+    <string name="quest_doctor_item_5_en">Care</string>
+    <string name="quest_doctor_item_6_id">Jelas dalam memberikan informasi</string>
+    <string name="quest_doctor_item_6_en">Informative and Clear Explanation</string>
+
+    <string name="sync_title">Sync Data</string>
+    <string name="sync_desc">Synchronize local data to data in the host storage</string>
+    <string name="sync_dialog_title">Confirmation Sync Data</string>
+    <string name="sync_dialog_msg">Are you sure to continue sync data?</string>
+    <string name="sync_dialog_yes">Yes, Continue</string>
+    <string name="sync_dialog_cancel">Cancel</string>
+
+    <string name="thank_big">Thanks For Your Time</string>
+    <string name="thank_small">Have A Good Day.</string>
+    <string name="thank_back_to_menu">Back To Home</string>
+
+</resources>

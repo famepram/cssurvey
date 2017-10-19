@@ -1,0 +1,12 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">24dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="main_menu_outter_padding">24dp</dimen>
+    <dimen name="main_menu_btn_padding">10dp</dimen>
+    <dimen name="main_menu_logo_mtop">16dp</dimen>
+    <dimen name="survey_act_mtop_widget">12dp</dimen>
+    <dimen name="survey_height_header">48dp</dimen>
+    <dimen name="fragment_quest_rg_item_margin">12dp</dimen>
+    <dimen name="form_input_text_mbottom">12dp</dimen>
+</resources>

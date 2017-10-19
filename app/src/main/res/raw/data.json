@@ -1,0 +1,782 @@
+{
+    "Items":[
+        {
+            "ID":1,
+            "Key":"register",
+            "TitleID": "Pendaftaran",
+            "TitleEN": "Registration",
+            "Items": [
+                {
+                    "QuestID" :1,
+                    "TextID": "Waktu Tunggu Saat Mendaftar",
+                    "TextEN": "Waiting Time In Registration",
+                    "Type": "Radio",
+                    "Options": [
+                        {
+                            "TextID": "Sangat Bagus",
+                            "TextEN": "Excellent"
+                        },
+                        {
+                            "TextID": "Bagus",
+                            "TextEN": "Good"
+                        },
+                        {
+                            "TextID": "Kurang",
+                            "TextEN": "Poor"
+                        },
+                        {
+                            "TextID": "Sangant Kurang",
+                            "TextEN": "Very Poor"
+                        }
+                    ]
+                },
+                {
+                    "QuestID" :2,
+                    "TextID": "Sikap dan keramahan",
+                    "TextEN": "Friendliness of service",
+                    "Type": "Radio",
+                    "Options": [
+                        {
+                            "TextID": "Sangat Bagus",
+                            "TextEN": "Excellent"
+                        },
+                        {
+                            "TextID": "Bagus",
+                            "TextEN": "Good"
+                        },
+                        {
+                            "TextID": "Kurang",
+                            "TextEN": "Poor"
+                        },
+                        {
+                            "TextID": "Sangant Kurang",
+                            "TextEN": "Very Poor"
+                        }
+                    ]
+                },
+                {
+                    "QuestID" :3,
+                    "TextID": "Kejelasan memberikan keterangan",
+                    "TextEN": "Clarity of communication",
+                    "Type": "Radio",
+                    "Options": [
+                        {
+                            "TextID": "Sangat Bagus",
+                            "TextEN": "Excellent"
+                        },
+                        {
+                            "TextID": "Bagus",
+                            "TextEN": "Good"
+                        },
+                        {
+                            "TextID": "Kurang",
+                            "TextEN": "Poor"
+                        },
+                        {
+                            "TextID": "Sangant Kurang",
+                            "TextEN": "Very Poor"
+                        }
+                    ]
+                },
+                {
+                    "QuestID" :4,
+                    "TextID": "Staff membantu ramah & sopan",
+                    "TextEN": "Staff was courteous and helpful",
+                    "Type": "Radio",
+                    "Options": [
+                        {
+                            "TextID": "Sangat Bagus",
+                            "TextEN": "Excellent"
+                        },
+                        {
+                            "TextID": "Bagus",
+                            "TextEN": "Good"
+                        },
+                        {
+                            "TextID": "Kurang",
+                            "TextEN": "Poor"
+                        },
+                        {
+                            "TextID": "Sangant Kurang",
+                            "TextEN": "Very Poor"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ID":2,
+            "Key":"doctor",
+            "TitleID": "Dokter",
+            "TitleEN": "Doctor",
+            "Items": [
+                {
+                    "QuestID" :5,
+                    "TextID": "Ketepatan waktu dengan jadwal",
+                    "TextEN": "Schedule on time",
+                    "Type": "Radio",
+                    "Options": [
+                        {
+                            "TextID": "Sangat Bagus",
+                            "TextEN": "Excellent"
+                        },
+                        {
+                            "TextID": "Bagus",
+                            "TextEN": "Good"
+                        },
+                        {
+                            "TextID": "Kurang",
+                            "TextEN": "Poor"
+                        },
+                        {
+                            "TextID": "Sangant Kurang",
+                            "TextEN": "Very Poor"
+                        }
+                    ]
+                },
+                {
+                    "QuestID" :6,
+                    "TextID": "Ramaha & empati",
+                    "TextEN": "Friendliness & empathy",
+                    "Type": "Radio",
+                    "Options": [
+                        {
+                            "TextID": "Sangat Bagus",
+                            "TextEN": "Excellent"
+                        },
+                        {
+                            "TextID": "Bagus",
+                            "TextEN": "Good"
+                        },
+                        {
+                            "TextID": "Kurang",
+                            "TextEN": "Poor"
+                        },
+                        {
+                            "TextID": "Sangant Kurang",
+                            "TextEN": "Very Poor"
+                        }
+                    ]
+                },
+                {
+                    "QuestID" :7,
+                    "TextID": "Cepat tanggap",
+                    "TextEN": "Quick to attend your needs",
+                    "Type": "Radio",
+                    "Options": [
+                        {
+                            "TextID": "Sangat Bagus",
+                            "TextEN": "Excellent"
+                        },
+                        {
+                            "TextID": "Bagus",
+                            "TextEN": "Good"
+                        },
+                        {
+                            "TextID": "Kurang",
+                            "TextEN": "Poor"
+                        },
+                        {
+                            "TextID": "Sangant Kurang",
+                            "TextEN": "Very Poor"
+                        }
+                    ]
+                },
+                {
+                    "QuestID" :8,
+                    "TextID": "Kepedulian",
+                    "TextEN": "Care",
+                    "Type": "Radio",
+                    "Options": [
+                        {
+                            "TextID": "Sangat Bagus",
+                            "TextEN": "Excellent"
+                        },
+                        {
+                            "TextID": "Bagus",
+                            "TextEN": "Good"
+                        },
+                        {
+                            "TextID": "Kurang",
+                            "TextEN": "Poor"
+                        },
+                        {
+                            "TextID": "Sangant Kurang",
+                            "TextEN": "Very Poor"
+                        }
+                    ]
+                },
+                {
+                    "QuestID" :9,
+                    "TextID": "Jelas dalam memberikan informasi",
+                    "TextEN": "Informative & clear explanation",
+                    "Type": "Radio",
+                    "Options": [
+                        {
+                            "TextID": "Sangat Bagus",
+                            "TextEN": "Excellent"
+                        },
+                        {
+                            "TextID": "Bagus",
+                            "TextEN": "Good"
+                        },
+                        {
+                            "TextID": "Kurang",
+                            "TextEN": "Poor"
+                        },
+                        {
+                            "TextID": "Sangant Kurang",
+                            "TextEN": "Very Poor"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ID":3,
+            "Key":"laboratory",
+            "TitleID": "Laboratorium",
+            "TitleEN": "Laboratory",
+            "Items": [
+                {
+                    "QuestID" :10,
+                    "TextID": "Sikap dan keramahan",
+                    "TextEN": "Friendlines of service",
+                    "Type": "Radio",
+                    "Options": [
+                        {
+                            "TextID": "Sangat Bagus",
+                            "TextEN": "Excellent"
+                        },
+                        {
+                            "TextID": "Bagus",
+                            "TextEN": "Good"
+                        },
+                        {
+                            "TextID": "Kurang",
+                            "TextEN": "Poor"
+                        },
+                        {
+                            "TextID": "Sangant Kurang",
+                            "TextEN": "Very Poor"
+                        }
+                    ]
+                },
+                {
+                    "QuestID" :11,
+                    "TextID": "Jelas dalam memberikan informasi",
+                    "TextEN": "Informative & clear explanation",
+                    "Type": "Radio",
+                    "Options": [
+                        {
+                            "TextID": "Sangat Bagus",
+                            "TextEN": "Excellent"
+                        },
+                        {
+                            "TextID": "Bagus",
+                            "TextEN": "Good"
+                        },
+                        {
+                            "TextID": "Kurang",
+                            "TextEN": "Poor"
+                        },
+                        {
+                            "TextID": "Sangant Kurang",
+                            "TextEN": "Very Poor"
+                        }
+                    ]
+                },
+                {
+                    "QuestID" :12,
+                    "TextID": "Keberasihan & fasilitas lab",
+                    "TextEN": "Cleanliness & lab facility",
+                    "Type": "Radio",
+                    "Options": [
+                        {
+                            "TextID": "Sangat Bagus",
+                            "TextEN": "Excellent"
+                        },
+                        {
+                            "TextID": "Bagus",
+                            "TextEN": "Good"
+                        },
+                        {
+                            "TextID": "Kurang",
+                            "TextEN": "Poor"
+                        },
+                        {
+                            "TextID": "Sangant Kurang",
+                            "TextEN": "Very Poor"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ID":4,
+            "Key":"pharmacy",
+            "TitleID": "Farmacy",
+            "TitleEN": "Pharmacy",
+            "Items": [
+                {
+                    "QuestID" :13,
+                    "TextID": "Waktu tunggu di farmasi",
+                    "TextEN": "Waiting time in pharmacy",
+                    "Type": "Radio",
+                    "Options": [
+                        {
+                            "TextID": "Sangat Bagus",
+                            "TextEN": "Excellent"
+                        },
+                        {
+                            "TextID": "Bagus",
+                            "TextEN": "Good"
+                        },
+                        {
+                            "TextID": "Kurang",
+                            "TextEN": "Poor"
+                        },
+                        {
+                            "TextID": "Sangant Kurang",
+                            "TextEN": "Very Poor"
+                        }
+                    ]
+                },
+                {
+                    "QuestID" :14,
+                    "TextID": "Pelayanan di farmasi",
+                    "TextEN": "Service in the pharmacy",
+                    "Type": "Radio",
+                    "Options": [
+                        {
+                            "TextID": "Sangat Bagus",
+                            "TextEN": "Excellent"
+                        },
+                        {
+                            "TextID": "Bagus",
+                            "TextEN": "Good"
+                        },
+                        {
+                            "TextID": "Kurang",
+                            "TextEN": "Poor"
+                        },
+                        {
+                            "TextID": "Sangant Kurang",
+                            "TextEN": "Very Poor"
+                        }
+                    ]
+                },
+                {
+                    "QuestID" :15,
+                    "TextID": "Sikap & keramahan petugas",
+                    "TextEN": "friendliness of service",
+                    "Type": "Radio",
+                    "Options": [
+                        {
+                            "TextID": "Sangat Bagus",
+                            "TextEN": "Excellent"
+                        },
+                        {
+                            "TextID": "Bagus",
+                            "TextEN": "Good"
+                        },
+                        {
+                            "TextID": "Kurang",
+                            "TextEN": "Poor"
+                        },
+                        {
+                            "TextID": "Sangant Kurang",
+                            "TextEN": "Very Poor"
+                        }
+                    ]
+                },
+                {
+                    "QuestID" :16,
+                    "TextID": "Sikap & keramahan petugas",
+                    "TextEN": "friendliness of service",
+                    "Type": "Radio",
+                    "Options": [
+                        {
+                            "TextID": "Sangat Bagus",
+                            "TextEN": "Excellent"
+                        },
+                        {
+                            "TextID": "Bagus",
+                            "TextEN": "Good"
+                        },
+                        {
+                            "TextID": "Kurang",
+                            "TextEN": "Poor"
+                        },
+                        {
+                            "TextID": "Sangant Kurang",
+                            "TextEN": "Very Poor"
+                        }
+                    ]
+                },
+                {
+                    "QuestID" :17,
+                    "TextID": "jelas dalam memberikan informasi",
+                    "TextEN": "Informative & clear explanation",
+                    "Type": "Radio",
+                    "Options": [
+                        {
+                            "TextID": "Sangat Bagus",
+                            "TextEN": "Excellent"
+                        },
+                        {
+                            "TextID": "Bagus",
+                            "TextEN": "Good"
+                        },
+                        {
+                            "TextID": "Kurang",
+                            "TextEN": "Poor"
+                        },
+                        {
+                            "TextID": "Sangant Kurang",
+                            "TextEN": "Very Poor"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ID":5,
+            "Key":"cashier",
+            "TitleID": "Kasir",
+            "TitleEN": "Cashier",
+            "Items": [
+                {
+                    "QuestID" :18,
+                    "TextID": "Waktu tunggu pembayaran",
+                    "TextEN": "Promptness of service",
+                    "Type": "Radio",
+                    "Options": [
+                        {
+                            "TextID": "Sangat Bagus",
+                            "TextEN": "Excellent"
+                        },
+                        {
+                            "TextID": "Bagus",
+                            "TextEN": "Good"
+                        },
+                        {
+                            "TextID": "Kurang",
+                            "TextEN": "Poor"
+                        },
+                        {
+                            "TextID": "Sangant Kurang",
+                            "TextEN": "Very Poor"
+                        }
+                    ]
+                },
+                {
+                    "QuestID" :19,
+                    "TextID": "Penjelasan tentang pembayaran",
+                    "TextEN": "Ability to clarify billing",
+                    "Type": "Radio",
+                    "Options": [
+                        {
+                            "TextID": "Sangat Bagus",
+                            "TextEN": "Excellent"
+                        },
+                        {
+                            "TextID": "Bagus",
+                            "TextEN": "Good"
+                        },
+                        {
+                            "TextID": "Kurang",
+                            "TextEN": "Poor"
+                        },
+                        {
+                            "TextID": "Sangant Kurang",
+                            "TextEN": "Very Poor"
+                        }
+                    ]
+                },
+                {
+                    "QuestID" :20,
+                    "TextID": "Ramah & membantu",
+                    "TextEN": "Couteous & Helpful",
+                    "Type": "Radio",
+                    "Options": [
+                        {
+                            "TextID": "Sangat Bagus",
+                            "TextEN": "Excellent"
+                        },
+                        {
+                            "TextID": "Bagus",
+                            "TextEN": "Good"
+                        },
+                        {
+                            "TextID": "Kurang",
+                            "TextEN": "Poor"
+                        },
+                        {
+                            "TextID": "Sangant Kurang",
+                            "TextEN": "Very Poor"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ID":6,
+            "Key":"facilities",
+            "TitleID": "Fasilitas Kami",
+            "TitleEN": "Our Facilities",
+            "Items": [
+                {
+                    "QuestID" :21,
+                    "TextID": "Ketersediaan jadwal praktik dokter sesuai kebutuhan anda",
+                    "TextEN": "Suitability of our doctor's schedule",
+                    "Type": "Radio",
+                    "Options": [
+                        {
+                            "TextID": "Sangat Bagus",
+                            "TextEN": "Excellent"
+                        },
+                        {
+                            "TextID": "Bagus",
+                            "TextEN": "Good"
+                        },
+                        {
+                            "TextID": "Kurang",
+                            "TextEN": "Poor"
+                        },
+                        {
+                            "TextID": "Sangant Kurang",
+                            "TextEN": "Very Poor"
+                        }
+                    ]
+                },
+                {
+                    "QuestID" :22,
+                    "TextID": "Kebersihan & kenyamanan rawat jalan lt. 1, & lt. 3",
+                    "TextEN": "Cleanliness of out patient clinic",
+                    "Type": "Radio",
+                    "Options": [
+                        {
+                            "TextID": "Sangat Bagus",
+                            "TextEN": "Excellent"
+                        },
+                        {
+                            "TextID": "Bagus",
+                            "TextEN": "Good"
+                        },
+                        {
+                            "TextID": "Kurang",
+                            "TextEN": "Poor"
+                        },
+                        {
+                            "TextID": "Sangant Kurang",
+                            "TextEN": "Very Poor"
+                        }
+                    ]
+                },
+                {
+                    "QuestID" :23,
+                    "TextID": "Kebersihan VC",
+                    "TextEN": "Cleanliness our toilet",
+                    "Type": "Radio",
+                    "Options": [
+                        {
+                            "TextID": "Sangat Bagus",
+                            "TextEN": "Excellent"
+                        },
+                        {
+                            "TextID": "Bagus",
+                            "TextEN": "Good"
+                        },
+                        {
+                            "TextID": "Kurang",
+                            "TextEN": "Poor"
+                        },
+                        {
+                            "TextID": "Sangant Kurang",
+                            "TextEN": "Very Poor"
+                        }
+                    ]
+                },
+                {
+                    "QuestID" :24,
+                    "TextID": "Kenyamanan ruang tunggu",
+                    "TextEN": "Comfort level of ruang tunggu",
+                    "Type": "Radio",
+                    "Options": [
+                        {
+                            "TextID": "Sangat Bagus",
+                            "TextEN": "Excellent"
+                        },
+                        {
+                            "TextID": "Bagus",
+                            "TextEN": "Good"
+                        },
+                        {
+                            "TextID": "Kurang",
+                            "TextEN": "Poor"
+                        },
+                        {
+                            "TextID": "Sangant Kurang",
+                            "TextEN": "Very Poor"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ID":7,
+            "Key":"service",
+            "TitleID": "Layanan Kami",
+            "TitleEN": "Our Services",
+            "Items": [
+                {
+                    "QuestID" :25,
+                    "TextID": "Bagaimana Anda menilai pelayanan RS Royal Progress secara kesuluruhan",
+                    "TextEN": "How do you rate our service overall",
+                    "Type": "Radio",
+                    "Options": [
+                        {
+                            "TextID": "Sangat lebih baik dari apa yang saya inginkan.",
+                            "TextEN": "Much better than i expected"
+                        },
+                        {
+                            "TextID": "Lebih baik dari apa yang saya inginkan.",
+                            "TextEN": "better than i expected"
+                        },
+                        {
+                            "TextID": "Sesuai seperti yang saya inginkan",
+                            "TextEN": "As i expected"
+                        },
+                        {
+                            "TextID": "Mengecewakan",
+                            "TextEN": "Disapointing"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ID":8,
+            "Key":"recomendation",
+            "TitleID": "Rekomendasi",
+            "TitleEN": "Recomendation",
+            "Items": [
+                {
+                    "QuestID" :26,
+                    "TextID": "Apakah anda berkenan merekomendasikan RS Royal Progress ke teman & keluarga anda",
+                    "TextEN": "Would you recommend R.S Royal Progress to your friends & family",
+                    "Type": "Radio",
+                    "Options": [
+                        {
+                            "TextID": "Ya",
+                            "TextEN": "Yes"
+                        },
+                        {
+                            "TextID": "Tidak",
+                            "TextEN": "No"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ID":9,
+            "Key":"good_staff",
+            "TitleID": "Apakah ada petugas yang ingin anda berikan penghargaan atas pelayanannya yang baik?",
+            "TitleEN": "Do you wish to compliment any staff's outstanding service & care",
+            "Items": [
+                {
+                    "QuestID" :27,
+                    "TextID": "Nama",
+                    "TextEN": "Name",
+                    "Type": "Input",
+                    "Options": []
+                },
+                {
+                    "QuestID" :28,
+                    "TextID": "Klinik",
+                    "TextEN": "Clinic / Dept",
+                    "Type": "Input",
+                    "Options": []
+                },
+                {
+                    "QuestID" :29,
+                    "TextID": "Komentar",
+                    "TextEN": "Comment",
+                    "Type": "Input",
+                    "Options": []
+                }
+            ]
+        },
+        {
+            "ID":10,
+            "Key":"bad_staff",
+            "TitleID": "Apakah ada petugas yang mengecewakan anda?",
+            "TitleEN": "Do you wish to mention any staff for poor service",
+            "Items": [
+                {
+                    "QuestID" :30,
+                    "TextID": "Nama",
+                    "TextEN": "Name",
+                    "Type": "Input",
+                    "Options": []
+                },
+                {
+                    "QuestID" :31,
+                    "TextID": "Klinik",
+                    "TextEN": "Clinic / Dept",
+                    "Type": "Input",
+                    "Options": []
+                },
+                {
+                    "QuestID" :32,
+                    "TextID": "Komentar",
+                    "TextEN": "Comment",
+                    "Type": "Input",
+                    "Options": []
+                }
+            ]
+        },
+        {
+            "ID":11,
+            "Key":"excellence",
+            "TitleID": "3 Klinik Unggulan",
+            "TitleEN": "3 Centres of excellences",
+            "Items": [
+                {
+                    "QuestID" :33,
+                    "TextID": "Apakah ada tahu 3 Klik unggulan kami (Klinik Diabetes & Tiroid, Klinik paru & Pernapasan , Klinik Wanita)",
+                    "TextEN": "Do you know about our 3 Centres of excellences (Diabetes & Thyroid Clinic, Lung & Respiratory clinic, Women's Clinic) ",
+                    "Type": "Radio",
+                    "Options": [
+                        {
+                            "TextID": "Ya",
+                            "TextEN": "Yes"
+                        },
+                        {
+                            "TextID": "Tidak",
+                            "TextEN": "No"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ID":12,
+            "Key":"suggestion",
+            "TitleID": "Komentar & Saran",
+            "TitleEN": "Comments & Suggestions",
+            "Items": [
+                {
+                    "QuestID" :34,
+                    "TextID": "Masukan & saran untuk kami",
+                    "TextEN": "Comments and suggestions",
+                    "Type": "Input",
+                    "Options": []
+                }
+            ]
+        }
+
+    ]
+}
